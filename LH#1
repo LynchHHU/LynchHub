@@ -1,0 +1,431 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local win = DiscordLib:Window("LYNCH HUB")
+
+local serv = win:Server("SCRIPTS", "")
+
+local btns = serv:Channel("Blox Fruits")
+
+btns:Button("Yaretzi Hub", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DeletedUserCode/Yaretzi/main/GameSupport.lua"))()
+
+DiscordLloadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()ib:Notification("Notification", "RaceClicker", "Okay!")
+
+end)
+
+btns:Button("Zen Hub", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/bfmobile", true))()
+
+DiscordLloadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()ib:Notification("Notification", "RaceClicker", "Okay!")
+
+end)
+
+btns:Button("Auto Chest", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/ChestFarm"))()
+
+DiscordLloadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()ib:Notification("Notification", "RaceClicker", "Okay!")
+
+end)
+
+btns:Button("Play Back X Hub", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NeaPchX2/Playback-X-HUB/main/Protected.lua.txt"))()
+
+DiscordLloadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()ib:Notification("Notification", "RaceClicker", "Okay!")
+
+end)
+
+btns:Button("Mokuro", function()
+
+loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+
+DiscordLloadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()ib:Notification("Notification", "RaceClicker", "Okay!")
+
+end)
+
+btns:Button("Hoho Hub", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+
+DiscordLloadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()ib:Notification("Notification", "RaceClicker", "Okay!")
+
+end)
+
+local btns = serv:Channel("Pet Simulator X")
+
+btns:Button("Fast Hatch", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IlllIlIIIlllIlIlllIIlIlllIlIIlllI/EggHatch/main/Egg.txt", true))()
+
+DiscordLloadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()ib:Notification("Notification", "RaceClicker", "Okay!")
+
+end)
+
+local btns = serv:Channel("Phantom Hub")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
+
+DiscordLloadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()ib:Notification("Notification", "RaceClicker", "Okay!")
+
+end)
+
+local btns = serv:Channel("Arsenal")
+
+btns:Button("Aimbot", function()
+
+function getplrsname() for i,v in pairs(game:GetChildren()) do if v.ClassName == "Players" then return v.Name end end end local players = getplrsname() local plr = game[players].LocalPlayer coroutine.resume(coroutine.create(function() while wait(1) do coroutine.resume(coroutine.create(function() for _,v in pairs(game[players]:GetPlayers()) do if v.Name ~= plr.Name and v.Character then v.Character.RightUpperLeg.CanCollide = false v.Character.RightUpperLeg.Transparency = 75 v.Character.RightUpperLeg.Size = Vector3.new(21,21,21) v.Character.LeftUpperLeg.CanCollide = false v.Character.LeftUpperLeg.Transparency = 75 v.Character.LeftUpperLeg.Size = Vector3.new(21,21,21) v.Character.HeadHB.CanCollide = false v.Character.HeadHB.Transparency = 75 v.Character.HeadHB.Size = Vector3.new(21,21,21) v.Character.HumanoidRootPart.CanCollide = false v.Character.HumanoidRootPart.Transparency = 75 v.Character.HumanoidRootPart.Size = Vector3.new(21,21,21) end end end)) end end))
+
+DiscordLloadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()ib:Notification("Notification", "RaceClicker", "Okay!")
+
+end)
+
+btns:Button("Storm Ware", function()
+
+_G.lockMeth = "Random" -- Change to head if you want your silent aim to ONLY aim at the head.
+
+_G.silMeth = "FPORWIL" -- Silent Aim Method, You're gonna have to play around with it. The Default one is FindPartOnRayWithIgnoreList but shortened. 
+
+_G.AntiFly = false -- Change if the game you're playing has an Anti-Fly, set it to false, if it has, set it to true, if it doesnt.
+
+_G.Keystrokes = true -- If you want sexy keystrokes, turn it on.
+
+_G.HideOverlay = false -- If you want the StormWare Watermark along with the features you've toggled shown, set it to true, not recommended for closet cheating, obviously.
+
+local g = game:HttpGet("https://raw.githubusercontent.com/Storm99999/whitelistkeys/main/lite/sw.lite.lua")
+
+loadstring(g:reverse())()
+
+task.wait(2)
+
+if _G.HideOverlay == true then
+
+    game.CoreGui["StormWare LITE"].modules.Visible = false
+
+end
+
+-- For some reason Synapse hates My keystrokes, so i have to set this manually. God fucking damn it.
+
+game.CoreGui["StormWare LITE"].keystrokes.space.Text = "â”â”â”â”â”"
+
+DiscordLloadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()ib:Notification("Notification", "RaceClicker", "Okay!")
+
+end)
+
+btns:Button("Darkai X", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Arsenal/MainFile"))()
+
+DiscordLloadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()ib:Notification("Notification", "RaceClicker", "Okay!")
+
+end)
+
+local btns = serv:Channel("My Restaurant")
+
+btns:Button("Fast Auto Farm", function()
+
+getgenv().fpsBoost = false
+
+loadstring(game:HttpGet("https://rawscripts.net/raw/My-Restaurant!-Fast-Autofarm-4610"))()
+
+DiscordLloadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()ib:Notification("Notification", "RaceClicker", "Okay!")
+
+end)
+
+local btns = serv:Channel("My Restaurant 2")
+
+btns:Button("Instant Everything", function()
+
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
+
+local w = library:CreateWindow("Restaurant Tycoon 2")
+
+local b = w:CreateFolder("Main")
+
+b:Button("Player Instant Cook",function()
+
+    local Cooking = game.Players.LocalPlayer.PlayerScripts.CookingNew
+
+local CookProgress = require(Cooking.CookProgress)
+
+local MultiClick = require(Cooking.InputDetectors.MultiClick)
+
+local MouseMovement = require(Cooking.InputDetectors.MouseMovement)
+
+local MouseSpin = require(Cooking.InputDetectors.MouseSpin)
+
+local run = CookProgress.run
+
+CookProgress.run = function(...)
+
+  local ARGS = {...}
+
+  ARGS[3] = 0
+
+  return run(unpack(ARGS))
+
+end
+
+MultiClick.start = function(...)
+
+  ({...})[3]()
+
+end
+
+MouseMovement.start = function(...)
+
+  ({...})[3]()
+
+end
+
+MouseSpin.start = function(...)
+
+  ({...})[3]()
+
+end
+
+end)
+
+b:Button("Auto Collect Money",function()
+
+    warn("Requiring API")do
+
+  loadstring(game:HttpGet("https://pastebin.com/raw/KMc6aBky"))();
+
+end warn("API Loaded")
+
+local child = object.child
+
+local descendant = object.descendant
+
+local check = object.check
+
+local Tycoon = game.Players.LocalPlayer.Tycoon.Value
+
+descendant.foreach(Tycoon.Items.OftenFiltered.Surface,"Bill",function(Bill)
+
+  local Settings = {
+
+          ["name"] = "CollectBill",
+
+          ["model"] = Bill.Parent
+
+  }
+
+ 
+
+  game.ReplicatedStorage.Events.ClientTycoonInput:FireServer(Tycoon,Settings)
+
+end)
+
+local Connection,Code = descendant.on_add(Tycoon.Items.OftenFiltered.Surface,function(Bill)
+
+  check.it(Bill.Name == "Bill",function()
+
+      local Settings = {
+
+              ["name"] = "CollectBill",
+
+              ["model"] = Bill.Parent
+
+      }
+
+     
+
+      game.ReplicatedStorage.Events.ClientTycoonInput:FireServer(Tycoon,Settings)
+
+  end)
+
+end)
+
+end)
+
+b:Button("NPC Cook & Reach",function()
+
+    local chiefInstantCook = true
+
+local npcReach = true
+
+local Client = game.Players.LocalPlayer
+
+local PS = Client.PlayerScripts
+
+local Module = require(PS.ClientMain.Replications.Workers.WalkDummy)
+
+local Worker = require(PS.CookingNew.WorkerComponents.WorkerDefault)
+
+local M1 = require(PS.ClientMain.Replications.Customers.GetNPCFolder)
+
+if npcReach then
+
+   hookfunction(Module,function()
+
+       return task.wait()
+
+   end)
+
+end
+
+if chiefInstantCook then
+
+   Worker.event = function(...)
+
+      local args = {...}
+
+      local npc = M1.GetNPCFolder(args[1]).ClientWorkers:FindFirstChild(args[2])
+
+      local M2 = game.ReplicatedStorage.MiscModules.CookingSharedCharacter:FindFirstChild(args[4])
+
+      if M2 then
+
+          require(M2).finishInteract(npc,args[3],args[4])
+
+      end
+
+      return
+
+   end
+
+end
+
+end)
+
+DiscordLloadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()ib:Notification("Notification", "RaceClicker", "Okay!")
+
+end)
+
+local btns = serv:Channel("Race Clicker")
+
+btns:Button("Race Clicker", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Race%20Clicker'))()
+
+DiscordLloadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()ib:Notification("Notification", "RaceClicker", "Okay!")
+
+end)
+
+btns:Button("Rubby Hub", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Deni210/raceclicker/main/Ruby%20Hub%20v1.0", true))()
+
+DiscordLloadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()ib:Notification("Notification", "RaceClicker", "Okay!")
+
+end)
+
+local btns = serv:Channel("Shindo Life")
+
+btns:Button("Life Hub", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
+
+DiscordLloadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()ib:Notification("Notification", "RaceClicker", "Okay!")
+
+end)
+
+local btns = serv:Channel("Slap Battle")
+
+btns:Button("Dizzy Hub", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dizyhvh/slap_battles_gui/main/0.lua"))()
+
+DiscordLloadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()ib:Notification("Notification", "RaceClicker", "Okay!")
+
+end)
+
+local btns = serv:Channel("MM2")
+
+btns:Button("Admin Panel", function()
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/MarsQQ/ScriptHubScripts/master/MM2%20Admin%20Panel'),true))()
+
+DiscordLloadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()ib:Notification("Notification", "RaceClicker", "Okay!")
+
+end)
+
+local btns = serv:Channel("Random Scripts")
+
+btns:Button("Auto Clicker", function()
+
+--By xMiles Games
+
+--// Setting \--
+
+local range = 99e9
+
+--// Variable \--
+
+local player = game:GetService("Players").LocalPlayer
+
+--// Script \--
+
+game:GetService("RunService").RenderStepped:Connect(function()
+
+    local p = game.Players:GetPlayers()
+
+    for i = 2, #p do local v = p[i].Character
+
+        if v and v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 and v:FindFirstChild("HumanoidRootPart") and player:DistanceFromCharacter(v.HumanoidRootPart.Position) <= range then
+
+            local tool = player.Character and player.Character:FindFirstChildOfClass("Tool")
+
+            if tool and tool:FindFirstChild("Handle") then
+
+                tool:Activate()
+
+                for i,v in next, v:GetChildren() do
+
+                    if v:IsA("BasePart") then
+
+                        firetouchinterest(tool.Handle,v,0)
+
+                        firetouchinterest(tool.Handle,v,1)
+
+                    end
+
+                end
+
+            end
+
+        end
+
+    end
+
+end)
+
+DiscordLloadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()ib:Notification("Notification", "RaceClicker", "Okay!")
+
+end)
+
+btns:Button("Keyboard", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+
+DiscordLloadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()ib:Notification("Notification", "RaceClicker", "Okay!")
+
+end)
+
+btns:Button("Mouse Cursor", function()
+
+loadstring(game:HttpGet(('https://pastefy.ga/V75mqzaz/raw'),true))()
+
+DiscordLloadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()ib:Notification("Notification", "RaceClicker", "Okay!")
+
+end)
+
+btns:Button("Fly", function()
+
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+
+DiscordLloadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()ib:Notification("Notification", "RaceClicker", "Okay!")
+
+end)
+
+btns:Button("Infinite Yield", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+DiscordLloadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()ib:Notification("Notification", "RaceClicker", "Okay!")
+
+end)
